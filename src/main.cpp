@@ -67,7 +67,7 @@ void loop()
   }
 
     if(isnan(humedad) || isnan(temperatura)) {
-    Serial.println("Error al leer el sensor DHT22");
+    Serial.println("Error al leer el sensor DHT11");
     return;
   }
 
